@@ -20,33 +20,68 @@ After completing the Landing-OS flow, you get a complete `landing-plan/` handoff
 - **SEO configuration** — Meta tags, Open Graph, schema markup, keywords
 - **Ready-to-use prompts** — Hand the package to any coding agent to build the actual page
 
-## Installation
+## Getting Started
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) 18+
 - [Claude Code](https://claude.ai/claude-code) installed and configured
 
-### Step 1: Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/bnsa3ed/Landing-OS.git
-cd Landing-OS
+git clone https://github.com/bnsa3ed/Landing-OS.git my-landing-design
+cd my-landing-design
 ```
 
-### Step 2: Install Dependencies
+Replace `my-landing-design` with whatever you want to name your design workspace.
+
+### 2. Remove the Original Remote
+
+```bash
+git remote remove origin
+```
+
+Now you have a clean local instance ready to use.
+
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Step 3: Start the Dashboard
+### 4. Start the Dashboard
 
 ```bash
 npm run dev
 ```
 
-This starts the Landing-OS dashboard at `http://localhost:3000`. The dashboard shows your progress through each phase and displays the artifacts you create with slash commands.
+Open [http://localhost:3000](http://localhost:3000) in your browser. The dashboard shows your progress through each phase and displays the artifacts you create with slash commands.
+
+### 5. Open Claude Code
+
+In the same project directory, start Claude Code:
+
+```bash
+claude
+```
+
+You're ready to start designing. Run `/landing-vision` to begin defining your landing page.
+
+### Optional: Save as Your Own Template
+
+If you want to reuse Landing-OS for future projects:
+
+1. Push to your own GitHub repository:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git push -u origin main
+```
+
+2. Go to your repository on GitHub, click **Settings**, and check **Template repository**.
+
+Now you can create new instances using GitHub's "Use this template" button.
 
 ## Usage
 
