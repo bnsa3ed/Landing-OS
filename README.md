@@ -30,8 +30,8 @@ After completing the Landing-OS flow, you get a complete `landing-plan/` handoff
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/bnsa3ed/Langing-OS.git
-cd Langing-OS
+git clone https://github.com/bnsa3ed/Landing-OS.git
+cd Landing-OS
 ```
 
 ### Step 2: Install Dependencies

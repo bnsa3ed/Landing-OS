@@ -75,7 +75,7 @@ export function AppLayout({
       {/* Footer */}
       <footer className="py-8 flex justify-center">
         <a
-          href="https://github.com/bnsa3ed/Langing-OS"
+          href="https://github.com/bnsa3ed/Landing-OS"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-stone-400 dark:text-stone-500 hover:text-stone-600 dark:hover:text-stone-400 transition-colors group"
