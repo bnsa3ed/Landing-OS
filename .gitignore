@@ -27,5 +27,5 @@ Thumbs.db
 # Generated exports
 landing-plan.zip
 
-# Large files in Inspirations (keep JSON, ignore raw HTML that's embedded)
-# Screenshots are large but useful for reference
+# Inspirations (scraped landing pages — reference data, not needed for framework)
+Inspirations/
